@@ -6,7 +6,22 @@
 <title> Домашнее задание </title>
 </head>
 
+<header>
+  <div class="logo"> 
+  <a href="index.html"><img src="img/logo.png" width="115"  height="150">  </a>
+  <h1 align="center"> Домашнее задание </h1></div>
+  <nav> 
+    <div class="topnav" >
+    <a href="index.html"> Ссылка меню 1</a> 
+    <a href="index.html"> Ссылка меню 2</a>
+    <a href="index.html"> Ссылка меню 3</a>
+    <a id="menu" href="#" class+"icon">&#9776</a>
+    </div>
+</nav>  
+</header>
+
 <body>
+<div class="spisok">
 <h2>Список:</h2>
 <ol>
 <li><a href="example.html" target="_blank">Главная сайта</a></li>
@@ -30,8 +45,8 @@
 <li><a href="http://example.ru" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a></li>
 <li><noindex--><a href="http://example.ru"> Ссылка, запрещенная для индексации поисковиками </a></noindex--></li>
 <li><a id="metka" href="https://kubsu.ru/ru" информация>Ссылка</a></li>
-<li><p><a href="sample.html"><img src="image.jpg" alt="Цветок" style="width: 600px;"></a></p></li>
-<li><a href="sample.html"><img src = "image.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
+<li><p><a href=""><img src="img/image.jpg" alt="Цветок" style="width: 600px;"></a></p></li>
+<li><a href="sample.html"><img src = "img/image.jpg" alt="Цветок" style="width: 600px;" usemap = "#map">
 <map name = "map">
 <area shape = "rect" href = "ссылочка" coords = "20 20 120 120"/>
 <area shape = "circle" href = "ссылочка" coords = "180 70 40"/>
@@ -43,9 +58,11 @@
 <li><a href="/">Сокращенная ссылка на главную</a></li>
 <li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
 </ol>
+</div>
 
+<div class="tablitca">
 <h3>Таблица</h3>
-            <table>
+            <table border="1">
               <tr bgcolor="#A9A9A9">
                 <th>Колонка 1</th>
                 <th>Колонка 2</th>
@@ -73,10 +90,10 @@
                </tr>
            
             </table>
+</div>
 
-<h1>Форма</h1>
-
-
+<div class="form">
+<h3>Форма</h3>
 <label>
   Как тебя зовут?:<br />
   <input name="field-name-1"
@@ -142,7 +159,14 @@ name="check-1" />
 Отправить форму:
 <input type="submit" value="Отправить" />
 </form>
-
+</div>
 </body>
+
+<footer>
+  <div class="podval">
+  <h6 align="center">(c) Дмитрий Бойко</h6></div>
+    </footer>
+
+<link rel="stylesheet" href="css/style.css">
 
 </html>
